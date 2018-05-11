@@ -36,6 +36,6 @@
     dice4.innerHTML= d4;
     status.innerHTML= diceTotal;
     if(d1 === d2) {
-      status.innerHTML+= " DOUBLE!, you get another turn";
+      double.innerHTML= " DOUBLE!, you get another turn";
     }
   };
