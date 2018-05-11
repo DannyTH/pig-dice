@@ -1,11 +1,24 @@
+body {
+  background-image: url("https://cdn.shopify.com/s/files/1/0222/9748/products/P1000454.JPG?v=1449169649");
+  background-size: cover;
+}
+h5 {
+  font-size: 70px;
+}
 h2 {
   clear:left;
+}
+h3 {
+  font-size: 70px;
+
 }
 .dice {
   border:#999 1px solid;
   text-align: center;
-  width: 35px;
+  width: 235px;
+  height:235px;
   margin: 5px;
+  font-size: 140px;
 }
 .total {
   border:#999 1px solid;
@@ -20,4 +33,8 @@ h2 {
 }
 .fit {
   color: #E05256;
+  text-align:center;
+}
+#lit {
+
 }

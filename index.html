@@ -9,22 +9,34 @@
     <title>pig-dice</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="lit">
       <div class="row">
         <div class="col-md-6" id="pit">
-          <h1 class="fit">PLAYER 1</h1>
+          <h5 class="fit">PLAYER 1</h5>
+          <div class="row">
+            <div class="col-md-6">
               <div id="dice1" class="dice">0</div>
+            </div>
+            <div class="col-md-6">
               <div id="dice2" class="dice">0</div>
-              <button onclick="rolldice1()">Rolldice</button>
+            </div>
+          </div>
+              <button onclick="rolldice1()" id="clickable">Rolldice</button>
               <div id="status" class="total"></div>
-              <h2 id="double1"></h2>
+              <h2 id="double1" class="kit"></h2>
             </div>
             <div class="col-md-6" id="git">
               <h3 class="fit">PLAYER 2</h3>
+              <div class="row">
+                <div class="col-md-6">
               <div id="dice3" class="dice">0</div>
+              </div>
+                <div class="col-md-6">
               <div id="dice4" class="dice">0</div>
-              <button onclick="rolldice2()">Rolldice</button>
-              <div id="status" class="total"></div>
+            </div>
+          </div>
+              <button onclick="rolldice()" id="erase">Rolldice</button>
+              <div id="pitch" class="total"></div>
               <h4 id="double2"></h4>
             </div>
           </div>
