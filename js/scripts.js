@@ -1,5 +1,14 @@
+
+
+
+
+
+
+
+
+
+
 //backend
-$(document).ready(function() {
   function rolldice() {
     var dice1= document.getElementById("dice1");
     var dice2= document.getElementById("dice2");
@@ -13,7 +22,4 @@ $(document).ready(function() {
     if(d1 === d2) {
       status.innerHTML= "You rolled a DOUBLE!, you get another turn";
     }
-
   };
-
-});
