@@ -1,5 +1,5 @@
 //backend
-$(document).ready(){
+$(document).ready(function() {
   function rolldice() {
     var dice1= document.getElementById("dice1");
     var dice2= document.getElementById("dice2");
@@ -11,9 +11,9 @@ $(document).ready(){
     dice2.innerHTML= d2;
     status.innerHTML= "you rolled "+diceTotal+".";
     if(d1 === d2) {
-      status.innerHTML= "You rolled a DOUBLE!, you get another turn"
-    };
+      status.innerHTML= "You rolled a DOUBLE!, you get another turn";
+    }
 
-  }
+  };
 
-};
+});
