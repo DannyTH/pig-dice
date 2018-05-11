@@ -3,7 +3,7 @@ h2 {
 }
 .dice {
   float: left;
-  border: solid;
+  border:#999 1px solid;
   text-align: center;
   width: 35px;
   margin: 5px;
