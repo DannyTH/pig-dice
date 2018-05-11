@@ -2,9 +2,13 @@ h2 {
   clear:left;
 }
 .dice {
-  float: left;
   border:#999 1px solid;
   text-align: center;
   width: 35px;
   margin: 5px;
+}
+.total {
+  border:#999 1px solid;
+  text-align: center;
+  width: 135px;
 }
